@@ -1,10 +1,15 @@
 {
   "expo": {
-    "name": "CameraExample",
-    "slug": "CameraExample",
+    "name": "SAFT",
+    "slug": "SAFT",
+    "permissions": [
+      "CAMERA",
+      "READ_EXTERNAL_STORAGE",
+      "WRITE_EXTERNAL_STORAGE"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/inventario.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -16,12 +21,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/inventario.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jairodeavila.SAFT"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/invenrario.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b20ef0e5-f6e8-47d9-99df-3533004f026f"
+      }
     }
   }
 }
